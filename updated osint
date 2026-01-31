@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zusty AI | Advance AI Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/exo-2');
+        body { background-color: #0b0d17; color: #ffffff; font-family: 'Exo 2', sans-serif; overflow-x: hidden; }
+        .gradient-text {
+            background: linear-gradient(90deg, #4facfe 0%, #9b51e0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: #161b22;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+        }
+        .btn-gradient {
+            background: linear-gradient(90deg, #4facfe 0%, #9b51e0 100%);
+            border-radius: 30px;
+            transition: opacity 0.3s;
+        }
+        .btn-gradient:hover { opacity: 0.9; }
+        .chat-btn {
+            background-color: #0ea5e9;
+            border-radius: 25px;
+        }
+        input, textarea { background: #000000 !important; color: white; }
+    </style>
+</head>
+<body>
+
+    <nav class="flex justify-between items-center p-5 sticky top-0 bg-[#0b0d17]/80 backdrop-blur-md z-40">
+        <h1 class="text-xl font-bold tracking-tighter">ZUSTY <span class="text-purple-500">AI</span></h1>
+        <i class="fas fa-bars text-2xl cursor-pointer"></i>
+    </nav>
+
+    <header class="p-6 mt-10 max-w-2xl">
+        <h2 class="text-3xl font-bold uppercase leading-tight mb-4">REVOLUTIONIZE YOUR FUTURE WITH <span class="gradient-text">ZUSTY AI</span></h2>
+        <p class="text-gray-400 text-sm mb-10 leading-relaxed">Harness the power of artificial intelligence to transform your business, automate processes, and unlock unprecedented insights.</p>
+        <div class="space-y-4">
+            <button class="btn-gradient w-48 py-3 font-semibold text-sm block shadow-lg">Learn Developing</button>
+            <button onclick="toggleChat()" class="border border-cyan-400 text-cyan-400 w-48 py-3 rounded-full font-semibold text-sm hover:bg-cyan-400/10">Chat With AI</button>
+        </div>
+    </header>
+
+    <section class="p-6 text-center mt-24">
+        <h2 class="text-2xl font-bold uppercase tracking-wide">ABOUT <span class="gradient-text">ARTIFICIAL INTELLIGENCE</span></h2>
+        <p class="text-gray-400 text-xs mt-2 italic">The advance future of technology is here</p>
+        <div class="mt-10 text-left text-sm text-gray-400 space-y-4">
+            <p>Artificial Intelligence (AI) is revolutionizing how we interact with technology, making systems smarter, more responsive, and capable of learning from data.</p>
+            <p>At <span class="text-cyan-400 font-bold">Zusty AI</span>, we develop cutting-edge AI solutions that transform businesses, enhance decision-making, and create new opportunities for innovation.</p>
+            <p>Our mission is to democratize AI technology, making it accessible and beneficial for organizations of all sizes across various industries.</p>
+        </div>
+    </section>
+
+    <section class="p-6 space-y-4 mt-10">
+        <div class="glass-card p-10 text-center">
+            <h3 class="text-4xl font-bold text-[#4facfe]">+86.3%</h3>
+            <p class="text-gray-500 text-xs mt-2 uppercase tracking-widest font-semibold">Accuracy Rate</p>
+        </div>
+        <div class="glass-card p-10 text-center">
+            <h3 class="text-4xl font-bold text-[#4facfe]">24/7</h3>
+            <p class="text-gray-500 text-xs mt-2 uppercase tracking-widest font-semibold">Automation</p>
+        </div>
+        <div class="glass-card p-10 text-center">
+            <h3 class="text-4xl font-bold text-[#4facfe]">12x</h3>
+            <p class="text-gray-500 text-xs mt-2 uppercase tracking-widest font-semibold">Faster Processing</p>
+        </div>
+    </section>
+
+    <section class="p-6 mt-20">
+        <h2 class="text-center text-2xl font-bold uppercase mb-10">OUR <span class="gradient-text">AI SERVICES</span></h2>
+        
+        <div class="glass-card p-6 border-t-2 border-blue-500 mb-6 relative overflow-hidden">
+            <i class="fas fa-robot text-4xl text-blue-500 mb-4"></i>
+            <h4 class="text-xl font-bold mb-2">AI Tools</h4>
+            <p class="text-gray-400 text-sm mb-4">Custom AI tools designed to solve specific business challenges, from predictive analytics to natural language processing.</p>
+            <a href="https://t.me/YOUR_CHANNEL" target="_blank" class="text-cyan-400 text-sm font-bold flex items-center gap-2">Join Channel <i class="fas fa-arrow-right text-[10px]"></i></a>
+        </div>
+
+        <div class="glass-card p-6 border-t-2 border-purple-500 mb-6">
+            <i class="fas fa-cogs text-4xl text-purple-500 mb-4"></i>
+            <h4 class="text-xl font-bold mb-2">Automation</h4>
+            <p class="text-gray-400 text-sm mb-4">Intelligent automation solutions that streamline workflows, reduce manual effort, and increase operational efficiency.</p>
+            <a href="#" class="text-cyan-400 text-sm font-bold">Click to Join →</a>
+        </div>
+    </section>
+
+    <section class="p-6 mt-10">
+        <h2 class="text-2xl font-bold uppercase mb-8">GET IN <span class="gradient-text">TOUCH</span></h2>
+        <p class="text-gray-400 text-xs mb-8">Contact us for any help you needs</p>
+        
+        <div class="space-y-6 mb-12">
+            <a href="mailto:zustydthai@gmail.com" class="flex items-center gap-4 group">
+                <div class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white"><i class="fas fa-envelope text-lg"></i></div>
+                <div>
+                    <p class="font-bold text-sm">Email</p>
+                    <p class="text-gray-400 text-xs group-hover:text-blue-400 transition-colors">zustydthai@gmail.com</p>
+                </div>
+            </a>
+            
+            <a href="https://wa.me/91000000000" target="_blank" class="flex items-center gap-4 group">
+                <div class="w-12 h-12 rounded-full bg-blue-700 flex items-center justify-center text-white"><i class="fas fa-phone-alt text-lg"></i></div>
+                <div>
+                    <p class="font-bold text-sm">WhatsApp</p>
+                    <p class="text-gray-400 text-xs group-hover:text-green-400 transition-colors">+91 0000000000</p>
+                </div>
+            </a>
+
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white"><i class="fas fa-map-marker-alt text-lg"></i></div>
+                <div>
+                    <p class="font-bold text-sm">Location</p>
+                    <p class="text-gray-400 text-xs">Russia</p>
+                </div>
+            </div>
+        </div>
+
+        <form class="glass-card p-6 space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full p-4 rounded-lg border border-gray-800 outline-none focus:border-purple-500">
+            <input type="email" placeholder="Your Email" class="w-full p-4 rounded-lg border border-gray-800 outline-none focus:border-purple-500">
+            <textarea placeholder="Your Message" rows="4" class="w-full p-4 rounded-lg border border-gray-800 outline-none focus:border-purple-500"></textarea>
+            <button type="submit" class="btn-gradient w-40 py-3 font-bold text-sm uppercase">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="p-6 mt-20 pb-20">
+        <h2 class="text-2xl font-bold uppercase tracking-wide"><span class="text-cyan-400">ZUSTY AI</span> <span class="text-purple-500">TECH LAB</span></h2>
+        <p class="text-gray-400 text-sm mt-1">Building the future with artificial intelligence!!</p>
+        
+        <div class="mt-8">
+            <h3 class="text-xl font-bold uppercase"><span class="text-cyan-400">AI</span> <span class="text-purple-500">OWNER</span></h3>
+            <p class="text-sm text-gray-500 mt-1">Owner/Powered by <span class="text-gray-200">Zusty</span></p>
+            <p class="text-sm text-gray-500">Co-Owner <span class="text-gray-200">Potter</span></p>
+        </div>
+
+        <div class="mt-10">
+            <h4 class="font-bold mb-4 uppercase text-sm tracking-widest">Quick Links</h4>
+            <ul class="text-gray-400 space-y-3 text-sm">
+                <li><a href="#" class="hover:text-white">Home</a></li>
+                <li><a href="#" class="hover:text-white">About</a></li>
+                <li><a href="#" class="hover:text-white">Services</a></li>
+                <li><a href="#" class="hover:text-white">AI Chat</a></li>
+                <li><a href="#" class="hover:text-white">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="mt-10">
+            <h4 class="font-bold mb-6 uppercase text-sm tracking-widest">Connect With Us</h4>
+            <div class="flex gap-4">
+                <a href="https://www.instagram.com/thezustyd?igsh=MXh4cm84bnUzbXdpMA==" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-white transition-all"><i class="fab fa-instagram"></i></a>
+                <a href="https://t.me/samplebyzusty" target="_blank" class="w-10 h-10 rounded-full bg-blue-900/30 flex items-center justify-center text-blue-400 hover:scale-110 transition-all"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://wa.me/910000000000" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-green-400 transition-all"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://discord.gg/" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:text-indigo-400 transition-all"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+
+        <p class="text-[10px] text-gray-600 mt-16">©2026 ZUSTY AI. All rights reserved.</p>
+    </footer>
+
+    <div class="fixed bottom-4 right-4 z-50">
+        <button onclick="toggleChat()" class="chat-btn px-5 py-3 text-white text-[12px] font-bold flex items-center gap-2 shadow-2xl active:scale-95 transition-transform">
+            <i class="fas fa-comment-dots text-lg"></i> CHAT WITH OUR BOT
+        </button>
+    </div>
+
+    <div id="chat-popup" class="hidden fixed bottom-20 right-4 w-[90%] max-w-[340px] glass-card overflow-hidden shadow-2xl z-50 flex flex-col h-[400px]">
+        <div class="bg-[#1c2128] p-4 border-b border-gray-700 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                <span class="text-xs font-bold uppercase tracking-widest">Zusty AI Assistant</span>
+            </div>
+            <button onclick="toggleChat()" class="text-gray-500 hover:text-white text-xl">&times;</button>
+        </div>
+        <div id="chat-box" class="flex-1 p-4 text-[13px] overflow-y-auto space-y-4 bg-[#0d1117]">
+            <div class="bg-[#161b22] p-3 rounded-tr-xl rounded-br-xl rounded-bl-xl border border-gray-700 w-fit max-w-[85%]">
+                Hello! I'm your Zusty AI assistant. How can I help you today?
+            </div>
+        </div>
+        <div class="p-3 bg-[#161b22] border-t border-gray-700 flex gap-2">
+            <input type="text" id="chat-input" class="bg-black text-xs p-3 flex-1 rounded-lg outline-none border border-gray-800 focus:border-cyan-500" placeholder="Ask me something...">
+            <button onclick="sendMsg()" class="bg-cyan-600 w-10 h-10 rounded-lg flex items-center justify-center text-white"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script>
+        function toggleChat() {
+            const pop = document.getElementById('chat-popup');
+            pop.classList.toggle('hidden');
+        }
+
+        function sendMsg() {
+            const input = document.getElementById('chat-input');
+            const box = document.getElementById('chat-box');
+            if(input.value.trim()) {
+                // User Msg
+                box.innerHTML += `<div class="bg-blue-600/20 p-3 rounded-tl-xl rounded-br-xl rounded-bl-xl ml-auto w-fit max-w-[85%] border border-blue-500/30 text-right">${input.value}</div>`;
+                
+                // Bot Response
+                setTimeout(() => {
+                    box.innerHTML += `<div class="bg-[#161b22] p-3 rounded-tr-xl rounded-br-xl rounded-bl-xl border border-gray-700 w-fit max-w-[85%] animate-pulse">Thinking...</div>`;
+                    box.scrollTop = box.scrollHeight;
+                }, 400);
+
+                setTimeout(() => {
+                    box.lastElementChild.classList.remove('animate-pulse');
+                    box.lastElementChild.innerHTML = "I am processing your request regarding: " + input.value + ". Please contact Darshan for more details.";
+                    box.scrollTop = box.scrollHeight;
+                }, 1500);
+
+                input.value = '';
+                box.scrollTop = box.scrollHeight;
+            }
+        }
+
+        // Allow Enter key to send message
+        document.getElementById('chat-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') sendMsg();
+        });
+    </script>
+</body>
+</html>
